@@ -13,3 +13,8 @@ In this task, you will learn how to implement a landing page. To do that:
 - when you finish the first block of your page deploy it and create a Pull Request with a [DEMO LINK](https://<your_account>.github.io/layout_miami/) 
 - after each next block do the same (add, commit and push the changes, and deploy the updated demo;
 - check yourself using the [CHECKLIST](https://github.com/mate-academy/layout_miami/blob/master/checklist.md) when finished;
+
+## Running locally & troubleshooting:
+
+- In case running `npm run start` does not produce any results, you can execute `npm run start -- --logs` to see verbose logs.
+- If you see that the app cannot start because the port is already taken, execute `npm run start -- --port=8081 --logs`. If port 8081 is also taken, you can change it to any other port number from 8081–9000 to find a free one.
